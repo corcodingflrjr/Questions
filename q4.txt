@@ -1,0 +1,12 @@
+Q1) What are comments?
+A-Comments can be used to explain Python code, to make the code readable and to prevent execution when testing code.
+
+Q2) Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
+A-Two ways to create a comment are by placing a pound-sign before the comment on a separate single line comment or by placing a pound-sign# after syntax code on the same line.
+
+Q3) If the name of a file is app.py what do we type in the command line to tell our computer to run it?
+A-You type python3 in the command line to tell the computer to run it.
+
+Q4) Demonstrate how I can tell a Python program to display something in the command line.
+A-Use python3 to display something.
+
