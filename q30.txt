@@ -1,0 +1,191 @@
+Q1) What are comments?
+A-Comments can be used to explain Python code, to make the code readable and to prevent execution when testing code.
+
+Q2) Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
+A-Two ways to create a comment are by placing a pound-sign before the comment on a separate single line comment or by placing a pound-sign# after syntax code on the same line.
+
+Q3) If the name of a file is app.py what do we type in the command line to tell our computer to run it?
+A-You type python3 in the command line to tell the computer to run it.
+
+Q4) Demonstrate how I can tell a Python program to display something in the command line.
+A-Use python3 to display something.
+
+6) What can I do to prevent certain files and directories from being tracked by git?
+Use gitignore to prevent certain files and directories from being tracked by git.
+
+7) What can be used in order to repeat some block of code? Provide 2 examples.
+Curly braces. Explanation: Most of the programming languages like C, C++, and Java use curly braces { } to define a block of code.
+
+8) When saving a value for later use what type of operator do we use?
+Assignment operator ”=” is used to assign a value to a variable.
+
+example:
+
+In python - A = 10 # 10 is assigned to variable A.
+
+In c++ - int A = 10 /* 10 is assigned to variable A.
+
+In Golang - var A int = 10 // 10 is assigned to variable A.
+
+9) What's the key difference between git revert and git reset?
+git revert should be used to undo changes on a public branch, and git reset should be reserved for undoing changes on a private branch. 
+
+You can also think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
+
+
+10) What's the key difference between Python lists and tuples?
+The key difference between the tuples and lists is that while the tuples are immutable objects the lists are mutable. 
+
+This means that tuples cannot be changed while the lists can be modified. Tuples are more memory efficient than the lists.
+
+
+print("6) What can I do to prevent certain files and directories from being tracked by git?")
+print(Use gitignore to prevent certain files and directories from being tracked by git.")
+
+
+7) What can be used in order to repeat some block of code? Provide 2 examples.
+Curly braces. Explanation: Most of the programming languages like C, C++, and Java use curly braces { } to define a block of code.
+
+
+8) When saving a value for later use what type of operator do we use?
+Assignment operator ”=” is used to assign a value to a variable.
+
+example:
+
+In python - A = 10 # 10 is assigned to variable A.
+
+In c++ - int A = 10 /* 10 is assigned to variable A.
+
+In Golang - var A int = 10 // 10 is assigned to variable A.
+
+
+9) What's the key difference between git revert and git reset?
+git revert should be used to undo changes on a public branch, and git reset should be reserved for undoing changes on a private branch. 
+
+You can also think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
+
+
+10) What's the key difference between Python lists and tuples?
+The key difference between the tuples and lists is that while the tuples are immutable objects the lists are mutable. 
+
+This means that tuples cannot be changed while the lists can be modified. Tuples are more memory efficient than the lists.
+
+11) What can I do to know where I am within my file system?
+To find out which directory in python you are currently in, use the getcwd() method. Cwd is for current working directory in python. 
+
+This returns the path of the current python directory as a string in Python. To get it as a bytes object, we use the method getcwdb().
+
+
+12) Describe the anatomy of a Python dictionary and create one below.
+Dictionaries are optimized to retrieve values when the key is known. The following declares a dictionary object. 
+
+Example: Dictionary. capitals = {"USA":"Washington D.C.", "France":"Paris", "India":"New Delhi"} 
+
+Above, capitals is a dictionary object which contains key-value pairs inside { } .
+
+
+13) What type of values can be in a Python dictionary?
+Values can be any type and can be used more than once. On the other hand, you can use an integer, float, string, or Boolean as a dictionary key. 
+
+However, neither a list nor another dictionary can serve as a dictionary key, because lists and dictionaries are mutable. 
+
+
+14) What type of values can be in a Python list?
+Lists can contain elements of various data types. In the example, we create an objects list. 
+
+It contains numbers, a boolean value, another list, a string, a tuple, a custom object, and a dictionary.
+
+
+15) What data type are True and False?
+A Boolean data type has one of two possible values (usually denoted true and false), intended to represent the two truth values of logic and Boolean algebra.
+
+
+16) What language does your computer understand?
+Binary code sequencing is the Machine language that gives instructions as 0's and 1's and is the only language that the computer understands.
+
+
+17) What do we need in order for your computer to make use of programming languages?
+A compiler is a fundamental piece of the puzzle but making a new programming language requires more than that:
+
+1) A language has to be designed: the language creator has to take some fundamental decisions about the paradigms to be used and the syntax of the language
+2) A compiler has to be created
+3) A standard library must be implemented
+4) Supporting tools like editors and build systems have to be provided
+
+
+18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
+My Instructor Troy is located in index 1 in this list. The index always starts at 0 from the left beginning or -1 from the right end.
+
+
+19) What does frontend / client side mean?
+Frontend / client side means the User's side, where the input is entered into the computer program.
+
+
+20) What does backend / server side mean?
+Backend / server side means the Developer's side, where program development, management, and updates occur to improve the Frontend experience.
+
+21) What are 3 ways to create a Python string?
+Python strings can be created with single quotes, double quotes, or triple quotes. 
+When we use triple quotes, strings can span several lines without using the escape character. 
+
+
+22) What are 2 types of number data types in Python? Provide an example.
+Python Numbers are defined as int , float and complex classes in Python. We can use the type() function to know which class a variable or a value belongs to. 
+... A floating-point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points.
+Examples such as an integer (2, a whole number, 2.2, a whole number with a fractional measure, and 2e, a complex number like sqrt, exponential, etc.)
+
+23) Are we able to add two strings together? How?
+You can join strings using either the addition (+) operator or the String's concat() method.
+
+
+24) What commands would you use to create the following file structure? (write every command line by line):
+    cd Desktop. mkdir projects. cd projects. mkdir instagram. cd instagram. mkdir images. cd images. touch profile_image.jpg.
+    cd Desktop. mkdir projects. cd projects. mkdir instagram. cd instagram. touch app.py.
+    cd Desktop. mkdir projects. cd projects. mkdir tiktok. cd tiktok. mkdir clip.
+    cd Desktop. mkdir projects. cd projects. mkdir tiktok. cd tiktok. touch app.py
+
+    Desktop
+    -> projects
+        -> instagram
+            -> images
+                -> profile_image.jpg
+            -> app.py
+        -> tiktok
+            -> clips
+            -> app.py
+
+
+25) What is the path to profile_image.jpg?
+cd Desktop/projects/instagram/images/profile_image.jpg.
+
+
+26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
+cd projects 
+cd instagram 
+cd images
+
+
+27) What method can I use to change this string from "troy" to "Troy"? 
+To replace a string in Python, use the string. replace() method. 
+Sometimes you will need to replace a substring with a new string, and Python has a replace() method to achieve it.
+a = "troy"
+print(a.upper())
+return TROY
+
+28) What method can I use to change this string from "TROY" to "troy"?
+To replace a string in Python, use the string. replace() method. 
+Sometimes you will need to replace a substring with a new string, and Python has a replace() method to achieve it.
+a = "TROY"
+print(a.lower())
+return TROY
+
+29) How can I check to see if all of the characters in a string are numbers/digits?
+The isdigit() method returns True if all characters in a string are digits.
+
+
+30) How can I split a string into a list with each value in the list being a line of the string?
+Python string to list. To convert string to list in Python, use the string split() method. The split() method splits the strings and store them in the list. 
+Then, it returns a list of the words in the string, using the “delimiter” as the delimiter string.
+In Python, the new line character “\n” is used to create a new line. When inserted in a string all the characters after the character are added to a new line. 
+Essentially the occurrence of the “\n” indicates that the line ends here and the remaining characters would be displayed in a new line.
+
