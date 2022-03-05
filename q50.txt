@@ -1,0 +1,462 @@
+Q1) What are comments?
+A-Comments can be used to explain Python code, to make the code readable and to prevent execution when testing code.
+
+Q2) Demonstrate at least 2 ways to create a comment. One should be for multiple lines.
+A-Two ways to create a comment are by placing a pound-sign before the comment on a separate single line comment or by placing a pound-sign# after syntax code on the same line.
+
+Q3) If the name of a file is app.py what do we type in the command line to tell our computer to run it?
+A-You type python3 in the command line to tell the computer to run it.
+
+Q4) Demonstrate how I can tell a Python program to display something in the command line.
+A-Use python3 to display something.
+
+6) What can I do to prevent certain files and directories from being tracked by git?
+Use gitignore to prevent certain files and directories from being tracked by git.
+
+7) What can be used in order to repeat some block of code? Provide 2 examples.
+Curly braces. Explanation: Most of the programming languages like C, C++, and Java use curly braces { } to define a block of code.
+
+8) When saving a value for later use what type of operator do we use?
+Assignment operator ”=” is used to assign a value to a variable.
+
+example:
+
+In python - A = 10 # 10 is assigned to variable A.
+
+In c++ - int A = 10 /* 10 is assigned to variable A.
+
+In Golang - var A int = 10 // 10 is assigned to variable A.
+
+9) What's the key difference between git revert and git reset?
+git revert should be used to undo changes on a public branch, and git reset should be reserved for undoing changes on a private branch. 
+
+You can also think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
+
+
+10) What's the key difference between Python lists and tuples?
+The key difference between the tuples and lists is that while the tuples are immutable objects the lists are mutable. 
+
+This means that tuples cannot be changed while the lists can be modified. Tuples are more memory efficient than the lists.
+
+
+print("6) What can I do to prevent certain files and directories from being tracked by git?")
+print(Use gitignore to prevent certain files and directories from being tracked by git.")
+
+
+7) What can be used in order to repeat some block of code? Provide 2 examples.
+Curly braces. Explanation: Most of the programming languages like C, C++, and Java use curly braces { } to define a block of code.
+
+
+8) When saving a value for later use what type of operator do we use?
+Assignment operator ”=” is used to assign a value to a variable.
+
+example:
+
+In python - A = 10 # 10 is assigned to variable A.
+
+In c++ - int A = 10 /* 10 is assigned to variable A.
+
+In Golang - var A int = 10 // 10 is assigned to variable A.
+
+
+9) What's the key difference between git revert and git reset?
+git revert should be used to undo changes on a public branch, and git reset should be reserved for undoing changes on a private branch. 
+
+You can also think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
+
+
+10) What's the key difference between Python lists and tuples?
+The key difference between the tuples and lists is that while the tuples are immutable objects the lists are mutable. 
+
+This means that tuples cannot be changed while the lists can be modified. Tuples are more memory efficient than the lists.
+
+11) What can I do to know where I am within my file system?
+To find out which directory in python you are currently in, use the getcwd() method. Cwd is for current working directory in python. 
+
+This returns the path of the current python directory as a string in Python. To get it as a bytes object, we use the method getcwdb().
+
+
+12) Describe the anatomy of a Python dictionary and create one below.
+Dictionaries are optimized to retrieve values when the key is known. The following declares a dictionary object. 
+
+Example: Dictionary. capitals = {"USA":"Washington D.C.", "France":"Paris", "India":"New Delhi"} 
+
+Above, capitals is a dictionary object which contains key-value pairs inside { } .
+
+
+13) What type of values can be in a Python dictionary?
+Values can be any type and can be used more than once. On the other hand, you can use an integer, float, string, or Boolean as a dictionary key. 
+
+However, neither a list nor another dictionary can serve as a dictionary key, because lists and dictionaries are mutable. 
+
+
+14) What type of values can be in a Python list?
+Lists can contain elements of various data types. In the example, we create an objects list. 
+
+It contains numbers, a boolean value, another list, a string, a tuple, a custom object, and a dictionary.
+
+
+15) What data type are True and False?
+A Boolean data type has one of two possible values (usually denoted true and false), intended to represent the two truth values of logic and Boolean algebra.
+
+
+16) What language does your computer understand?
+Binary code sequencing is the Machine language that gives instructions as 0's and 1's and is the only language that the computer understands.
+
+
+17) What do we need in order for your computer to make use of programming languages?
+A compiler is a fundamental piece of the puzzle but making a new programming language requires more than that:
+
+1) A language has to be designed: the language creator has to take some fundamental decisions about the paradigms to be used and the syntax of the language
+2) A compiler has to be created
+3) A standard library must be implemented
+4) Supporting tools like editors and build systems have to be provided
+
+
+18) At what index is your instructor's name located in this list? ["Ron", "Troy", "Martha"]
+My Instructor Troy is located in index 1 in this list. The index always starts at 0 from the left beginning or -1 from the right end.
+
+
+19) What does frontend / client side mean?
+Frontend / client side means the User's side, where the input is entered into the computer program.
+
+
+20) What does backend / server side mean?
+Backend / server side means the Developer's side, where program development, management, and updates occur to improve the Frontend experience.
+
+21) What are 3 ways to create a Python string?
+Python strings can be created with single quotes, double quotes, or triple quotes. 
+When we use triple quotes, strings can span several lines without using the escape character. 
+
+
+22) What are 2 types of number data types in Python? Provide an example.
+Python Numbers are defined as int , float and complex classes in Python. We can use the type() function to know which class a variable or a value belongs to. 
+... A floating-point number is accurate up to 15 decimal places. Integer and floating points are separated by decimal points.
+Examples such as an integer (2, a whole number, 2.2, a whole number with a fractional measure, and 2e, a complex number like sqrt, exponential, etc.)
+
+23) Are we able to add two strings together? How?
+You can join strings using either the addition (+) operator or the String's concat() method.
+
+
+24) What commands would you use to create the following file structure? (write every command line by line):
+    cd Desktop. mkdir projects. cd projects. mkdir instagram. cd instagram. mkdir images. cd images. touch profile_image.jpg.
+    cd Desktop. mkdir projects. cd projects. mkdir instagram. cd instagram. touch app.py.
+    cd Desktop. mkdir projects. cd projects. mkdir tiktok. cd tiktok. mkdir clip.
+    cd Desktop. mkdir projects. cd projects. mkdir tiktok. cd tiktok. touch app.py
+
+    Desktop
+    -> projects
+        -> instagram
+            -> images
+                -> profile_image.jpg
+            -> app.py
+        -> tiktok
+            -> clips
+            -> app.py
+
+
+25) What is the path to profile_image.jpg?
+cd Desktop/projects/instagram/images/profile_image.jpg.
+
+
+26) What commands can I use to get from the clips directory to the images directory? (write every command line by line):
+cd projects 
+cd instagram 
+cd images
+
+
+27) What method can I use to change this string from "troy" to "Troy"? 
+To replace a string in Python, use the string. replace() method. 
+Sometimes you will need to replace a substring with a new string, and Python has a replace() method to achieve it.
+a = "troy"
+print(a.upper())
+return TROY
+
+28) What method can I use to change this string from "TROY" to "troy"?
+To replace a string in Python, use the string. replace() method. 
+Sometimes you will need to replace a substring with a new string, and Python has a replace() method to achieve it.
+a = "TROY"
+print(a.lower())
+return TROY
+
+29) How can I check to see if all of the characters in a string are numbers/digits?
+The isdigit() method returns True if all characters in a string are digits.
+
+
+30) How can I split a string into a list with each value in the list being a line of the string?
+Python string to list. To convert string to list in Python, use the string split() method. The split() method splits the strings and store them in the list. 
+Then, it returns a list of the words in the string, using the “delimiter” as the delimiter string.
+In Python, the new line character “\n” is used to create a new line. When inserted in a string all the characters after the character are added to a new line. 
+Essentially the occurrence of the “\n” indicates that the line ends here and the remaining characters would be displayed in a new line.
+
+31) What are the Python comparison operators? List each and describe.
+Python Comparison Operators
+Comparison operators are used to compare two values:
+
+Operator	Name	Example	Try it
+==	Equal	x == y	
+!=	Not equal	x != y	
+>	Greater than	x > y	
+<	Less than	x < y	
+>=	Greater than or equal to	x >= y	
+<=	Less than or equal to	x <= y
+
+
+32) What are the Python logical operators? List each and describe.
+Python Logical Operators
+Logical operators are used to combine conditional statements:
+Operator	Description	Example	Try it
+and 	Returns True if both statements are true	x < 5 and  x < 10	
+or	Returns True if one of the statements is true	x < 5 or x < 4	
+not	Reverse the result, returns False if the result is true	not(x < 5 and x < 10)
+
+
+33) How can we decide to run one piece of code versus another? Provide an example.
+Determining which piece of code to run should be based on 3 core criteria. 
+1) Programming language used
+2) Data sets used
+3) FrontEnd User Expectations
+
+
+34) What can I do to work on my primary code, but not mess it up? Provide an example.
+I can create Branches in Github to work on, test, and team audit my primary code, without interfering with my primary code in real time.
+git init 
+git branch
+git checkout
+
+
+35) What do I do in order to make sure I have the latest code on my machine?
+Open the Team Explorer and open the Sync view. Then click the Pull link under Incoming Commits to pull remote changes and merge them into your local branch. 
+Pulling updates files in your open project, so make sure to commit your changes before pulling. In Team Explorer, select the Home button and choose Sync.
+
+
+36) How can I accept user input into my Python code?
+In Python, we can get user input like this: 
+name = input("Enter your name: ") print("Hello", name + "!") 
+The code above simply prompts the user for information, and the prints out what they entered in.
+
+
+37) How can I see all of my git commits?
+On GitHub.com, you can access your project history by selecting the commit button from the code tab on your project. 
+Locally, you can use git log . The git log command enables you to display a list of all of the commits on your current branch. 
+By default, the git log command presents a lot of information all at once.
+
+
+38) How can I add a value to a Python list?
+There are four methods to add elements to a List in Python.
+
+append(): append the object to the end of the list.
+insert(): inserts the object before the given index.
+extend(): extends the list by appending elements from the iterable.
+List Concatenation: We can use + operator to concatenate multiple lists and create a new list.
+Python add elements to List Examples
+We can add an element to the end of the list or at any given index. There are ways to add elements from an iterable to the list. We can also use + operator to concatenate multiple lists to create a new list.
+
+1. append()
+This function add the element to the end of the list.
+fruits = ["Apple", "Banana"]
+# 1. append()
+print(f'Current Fruits List {fruits}')
+f = input("Please enter a fruit name:\n")
+fruits.append(f)
+print(f'Updated Fruits List {fruits}')
+Output:
+Current Fruits List ['Apple', 'Banana']
+Please enter a fruit name:
+Orange
+Updated Fruits List ['Apple', 'Banana', 'Orange']
+
+
+2. insert()
+This function adds an element at the given index of the list. It’s useful to add an element at the specified index of the list.
+num_list = [1, 2, 3, 4, 5]
+print(f'Current Numbers List {num_list}')
+num = int(input("Please enter a number to add to list:\n"))
+index = int(input(f'Please enter the index between 0 and {len(num_list) - 1} to add the number:\n'))
+num_list.insert(index, num)
+print(f'Updated Numbers List {num_list}')
+Output:
+Current Numbers List [1, 2, 3, 4, 5]
+Please enter a number to add to list:
+20
+Please enter the index between 0 and 4 to add the number:
+2
+Updated Numbers List [1, 2, 20, 3, 4, 5]
+
+3. extend()
+This function append iterable elements to the list. It is useful to append elements from an iterable to the end of the list.
+list_num = []
+list_num.extend([1, 2])  # extending list elements
+print(list_num)
+list_num.extend((3, 4))  # extending tuple elements
+print(list_num)
+list_num.extend("ABC")  # extending string elements
+print(list_num)
+Output:
+[1, 2]
+[1, 2, 3, 4]
+[1, 2, 3, 4, 'A', 'B', 'C']
+
+4. List Concatenation
+If you have to concatenate multiple lists, you can use the “+” operator. This will create a new list and the original lists will remain unchanged.
+evens = [2, 4, 6]
+odds = [1, 3, 5]
+nums = odds + evens
+print(nums)  # [1, 3, 5, 2, 4, 6]
+The new list will contain elements from the list from left to right. It’s similar to the string concatenation in Python.
+
+
+39) How can I remove a value from a Python list?
+In Python, use list methods clear(), pop(), and remove() to remove items (elements) from a list. It is also possible to delete items using del statement by specifying a position or range with an index or slice.
+
+Remove all items: clear()
+Remove an item by index and get its value: pop()
+Remove an item by value: remove()
+Remove items by index or slice: del
+Remove items that meet the condition: List comprehensions
+
+
+40) How can I access a value in a Python dictionary?
+One common method used to access a value in a dictionary is to reference its value using the dict[key] syntax. 
+The difference between the dict[key] syntax and dict. get() is that if a key is not found using the dict[key] syntax, a KeyError is raised. If you use dict.
+Python | Accessing Key-value in Dictionary
+Method #1 : Using in operator.
+Method #2 : Using list comprehension.
+Method #3 : Using dict.items()
+Method #4 : Using enumerate()
+
+41) How can I remove a value from a Python dictionary?
+Create a for-loop to iterate through the list of keys. At each iteration, check if the key is the desired key to remove. 
+If it is, use the del keyword along with dictionary indexing to delete the key-value pair and then call the break keyword.
+The syntax for this method is:
+dictionary.pop(key_to_remove, not_found)
+The pop() method can accept either one or two parameters:
+The name of the key you want to remove (mandatory).
+The value that should be returned if a key cannot be found (optional).
+
+42) How can I change a value in a Python dictionary?
+Use the format dict[key] = value to assign a new value to an existing key.
+a_dictionary = {"a": 1, "b": 2}
+a_dictionary["b"] = 3.
+print(a_dictionary)
+Call dict. update(other_dictionary) to update dict with key-value pairs from other_dictionary . 
+If a key in other_dictionary already exists in dict , its value is replaced. If not, the key-value pair is added to dict .
+
+43) What is a pull request? Describe it in detail.
+A pull request is an event in Git where a contributor asks a maintainer of a Git repository to review code they want to merge into a project. ... 
+You will also learn how to clone a GitHub repository onto your local machine so you can make your code changes before pushing them to your forked repository.
+https://betterprogramming.pub/how-to-make-a-perfect-pull-request-3578fb4c112
+How to Make a Perfect Pull Request
+Perfect code is not enough. Help people review it
+Anton Chuchkalov
+Anton Chuchkalov
+Jun 22, 2020·5 min read
+Photo by chuttersnap on Unsplash
+I had decided to improve my team’s performance and the first step was to find the bottleneck.
+It turned out that coding speed wasn’t the limiting factor — code review was. So, to speed up reviews, I compared two types of pull requests:
+Those that receive few comments and get merged quickly.
+Those that get a lot of comments and require several review rounds.
+Here’s the result: Nine ways to make pull requests easier to review.
+
+1. Add “Why” Code Comments
+When you write a new feature, you have a lot of information about it. Requirements, limitations of 3rd-party systems, interactions with legacy codebase — you write code which takes all of it into account. However, when somebody reads that code, they don’t have that context, so they ask “Why is it here?” and “Why did you pick this approach?”.
+Give them the answer to that “why” in advance, by adding explanatory comments.
+Some people promote the idea that comments are harmful and should be avoided, which I disagree with.
+There are different types of comments. The ones that describe what the code does are indeed redundant. Extraction of a method with a thoughtfully picked name eliminates them.
+On the other hand, when you explain why code is written in a particular way, you give additional information to the reader. These comments increase the level of awareness, ideally to the same level as that of the author. They help people to understand code.
+I usually put a reason for class’s existence, links to related resources, or some historical context in there.
+
+2. Make Your PRs Small
+This is such a powerful technique that Google has even created a separate article on the benefits of small pull requests. Below are my four favourites.
+Small PRs are:
+Reviewed more thoroughly.
+Reviewed more quickly.
+Easier to merge (frequent merges lead to fewer conflicts).
+Less wasted work if rejected.
+Reduce amount of changes per PR
+Here are some ideas to make it easier to make small PRs:
+Extract refactoring to a separate PR.
+Split big features into parts (even if they wouldn’t be user-facing).
+Learning a handful of git tricks is helpful. Make git add --patch and git rebase --interactive your friends.
+In case of long-running feature branches, set that branch as a target for your PRs instead of master:
+
+3. Make a Clear Description
+PR’s description gives the reviewer initial context on the task. Include:
+A link to the ticket.
+A summary of what has been done (if it’s not obvious from PR’s title).
+Links to related pull requests (for example, related changes in another service).
+If you think some information is required to understand the code — don’t put it into PR’s description. Instead, make a code comment: they’re more prominent and will help future readers.
+
+4. Comment Your Own Pull Request
+It doesn’t make sense to add explanatory code comments for certain changes (deletions and refactorings, for example). Consider commenting your own pull request to give additional context to reviewers.
+
+5. Discuss the Overall Approach Before Implementing the Whole Feature
+This is a huge time-saver. When you’re about to start work on a larger refactoring or feature, discuss your approach with colleagues beforehand. Create a chat with several fellow developers, explain the task and your idea. They might approve your approach, or suggest a better one.
+Many times I’ve faced a lack of preliminary coordination, leading to a waste of several days work. Imagine, you do something for five days in a row only to hear “Sorry, but we actually don’t need that, because…”.
+Save yourself from disappointment. Get feedback early.
+Get feedback early to avoid disappointments
+
+6. Rebase Onto Fresh Master Before Creating a PR
+There are several benefits to this:
+Tests might pass in your local branch, but fail with latest updates applied.
+You would be able to use recently added functionality (a new utility class, for example).
+Reviewers could be confused if they don’t find recent changes.
+I favour rebases over merges because with rebases the branch contains only relevant commits.
+
+7. Respond to Reviews Quickly
+Frequently, addressing review comments requires a little time. Fixing a typo, adding a missing test case, renaming a method. If you do that quickly, your peer would have to spend less time remembering what that PR was all about. Less time-to-merge means happier colleagues, which means more profit!
+The downside of this approach is an increased amount of context switches for you. A workaround is to use the Pomodoro technique: working in 25-minutes intervals, separated by short breaks. The primary goal of the technique is to become more focused, more productive, healthier, and less tired. But there’s also a nice side-effect: context switches after a break happen more naturally. They don’t disappear, but their negative disruptive effect is greatly reduced.
+
+8. Don’t Amend Already Reviewed Commits — Send New Ones
+Address review comments in a separate commit instead of amending or squashing your changes. That makes it far easier for reviewers to check what was changed since their last review:
+How to check changes from not-yet-reviewed commits
+
+9. Thank Reviewers for Their Suggestions
+
+
+44) Why do we use services like Github?
+GitHub is a website for developers and programmers to collaboratively work on code. 
+The primary benefit of GitHub is its version control system, which allows for seamless collaboration without compromising the integrity of the original project. 
+The projects on GitHub are examples of open-source software.
+
+
+45) How can I create a git branch?
+The easiest way to create a Git branch is to use the “git checkout” command with the “-b” option for a new branch. 
+Next, you just have to specify the name for the branch you want to create. 
+To achieve that, you will run the “git checkout” command with the “-b” option and add “feature” as the branch name.
+
+
+46) How can I switch to another branch?
+The easiest way to switch branch on Git is to use the “git checkout” command and specify the name of the branch you want to switch to.
+A quick way of switching branch on Git is to use the “git switch” command and specify the name of the branch you want to switch to.
+
+
+47) What happens if multiple engineers try to change the same area of a codebase from different points in time?
+Those engineers will create local branches to work on their code simultaneously from different points in time. 
+They will merge their branches into the main code once they have been reviewed by the team and properly approved.
+https://towardsdatascience.com/how-the-best-development-teams-manage-shared-codebases-2613b5b87185
+
+
+48) What are the 3 stages of of tracking our work with git?
+Every project under the distributed version control system Git, goes through three stages — Modified, Staged, and Committed.
+
+
+49) What are the commands we'd use, in order, to move our changes through these stages?
+git branch master
+git init
+git clone
+git add
+git commit
+git push
+git branch
+git checkout
+git merge
+
+
+50) Is spacing in my Python code important? Why?
+Indentation, or leading whitespace, is extremely important in Python. 
+The indentation level of lines of code in Python determines how statements are grouped together. 
+The indented print statement lets Python know that it should only be executed if the if statement returns True .
+
+
+
